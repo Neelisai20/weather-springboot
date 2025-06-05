@@ -1,0 +1,29 @@
+2025-06-04 10:48:19 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdownCommencing graceful shutdown. Waiting for active requests to complete
+2025-06-04 10:48:19 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdownGraceful shutdown complete
+2025-06-04 10:48:40 [main] INFO  c.e.weather.WeatherApplicationTestsStarting WeatherApplicationTests using Java 17.0.12 with PID 22864 (started by Dell in D:\springboot\weather)
+2025-06-04 10:48:40 [main] DEBUG c.e.weather.WeatherApplicationTestsRunning with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-04 10:48:40 [main] INFO  c.e.weather.WeatherApplicationTestsNo active profile set, falling back to 1 default profile: "default"
+2025-06-04 10:48:43 [main] INFO  o.s.b.a.e.web.EndpointLinksResolverExposing 1 endpoint beneath base path '/actuator'
+2025-06-04 10:48:43 [main] INFO  c.e.weather.WeatherApplicationTestsStarted WeatherApplicationTests in 3.771 seconds (process running for 5.532)
+2025-06-04 10:48:58 [main] INFO  c.example.weather.WeatherApplicationStarting WeatherApplication using Java 17.0.12 with PID 20120 (D:\springboot\weather\target\classes started by Dell in D:\springboot\weather)
+2025-06-04 10:48:58 [main] DEBUG c.example.weather.WeatherApplicationRunning with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-04 10:48:58 [main] INFO  c.example.weather.WeatherApplicationNo active profile set, falling back to 1 default profile: "default"
+2025-06-04 10:49:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServerTomcat initialized with port 8080 (http)
+2025-06-04 10:49:00 [main] INFO  o.a.catalina.core.StandardServiceStarting service [Tomcat]
+2025-06-04 10:49:00 [main] INFO  o.a.catalina.core.StandardEngineStarting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-04 10:49:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]Initializing Spring embedded WebApplicationContext
+2025-06-04 10:49:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContextRoot WebApplicationContext: initialization completed in 1600 ms
+2025-06-04 10:49:00 [main] DEBUG c.e.weather.config.MdcLoggingFilterFilter 'mdcLoggingFilter' configured for use
+2025-06-04 10:49:01 [main] INFO  o.s.b.a.e.web.EndpointLinksResolverExposing 1 endpoint beneath base path '/actuator'
+2025-06-04 10:49:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServerTomcat started on port 8080 (http) with context path '/'
+2025-06-04 10:49:01 [main] INFO  c.example.weather.WeatherApplicationStarted WeatherApplication in 3.086 seconds (process running for 3.499)
+2025-06-04 10:49:30 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-04 10:49:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServletInitializing Servlet 'dispatcherServlet'
+2025-06-04 10:49:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServletCompleted initialization in 1 ms
+2025-06-04 10:49:30 [http-nio-8080-exec-2] INFO  c.e.w.controller.WeatherControllerReceived request for weather data for city: London
+2025-06-04 10:49:30 [http-nio-8080-exec-2] DEBUG c.e.w.s.impl.WeatherServiceImplFetching weather data
+2025-06-04 10:49:30 [http-nio-8080-exec-2] DEBUG com.example.weather.util.ApiClientMaking API call to: https://api.openweathermap.org/data/2.5/weather?q=London&appid=05bd1eefbc79be6dc1991d06142b52e1&units=metric
+2025-06-04 10:49:31 [http-nio-8080-exec-2] INFO  c.e.w.s.impl.WeatherServiceImplSuccessfully fetched weather data
+2025-06-04 10:49:31 [http-nio-8080-exec-2] DEBUG c.e.w.controller.WeatherControllerSuccessfully fetched weather data for city: London
+2025-06-04 10:50:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdownCommencing graceful shutdown. Waiting for active requests to complete
+2025-06-04 10:50:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdownGraceful shutdown complete
